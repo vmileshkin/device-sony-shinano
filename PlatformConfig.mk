@@ -84,4 +84,7 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 # Platform witout a vendor partition
 TARGET_COPY_OUT_VENDOR := system/vendor
 
+# Let other components rely on the kernel build tree
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+
 include device/sony/common/CommonConfig.mk
